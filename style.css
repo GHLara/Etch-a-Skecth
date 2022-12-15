@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #100F0F;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    justify-items: center;
+}
+
+h1{
+    font-family: 'Zen Dots', cursive;
+    letter-spacing: 10px;
+    font-size: 60px;
+    color: #fff;
+    box-shadow: 5px 8px 6px -5px #D6D5A8;
+}
+
+.header{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.config{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 20px;
+}
+
+h2{
+    font-size: 40px;
+    padding: 10px 0 0 0;
+    margin: 0;
+    text-shadow: 1px 1px 3px #dad755;
+    color: #fff;
+}
+
+#container{
+    height: 600px;
+    width: 600px;
+    display: grid;
+    box-shadow: 5px 8px 10px -5px #D6D5A8;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+#color-selector{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    padding: 0;
+}
+
+.color-selector input{
+    -webkit-appearance: none;
+    border: none;
+}
+
+input[type='color']::-webkit-color-swatch-wrapper {
+    padding: 0;
+    border-radius: 100px;
+}
+
+input[type='color']::-webkit-color-swatch {
+    border: none;
+    border-radius: 50px;
+    box-shadow: 3px 3px 10px #D6D5A8;
+}
+
+.config button{
+    width: 200px;
+    height: 80px;
+    font-size: 24px;
+    text-shadow: 1px 1px 3px #dbda8a;
+    box-shadow: 5px 8px 6px -5px #D6D5A8;
+    color: #ffffff;
+    background-color: #1f1d1d;
+    border: none;
+}
+
+.config button:hover{
+    cursor: pointer;
+}
